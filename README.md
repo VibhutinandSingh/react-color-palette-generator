@@ -1,16 +1,112 @@
-# React + Vite
+# 🎨 Color Palette Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple React application that generates a random HEX color palette with a single click. The app displays both the HEX and RGB color values, allows users to copy either format to the clipboard, and updates the page background in real time.
 
-Currently, two official plugins are available:
+This project was built to strengthen my understanding of React fundamentals by applying concepts such as state management, derived values, event handling, and the Clipboard API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📸 Screenshot
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Project Screenshot](./assets/color-palette-gnerator.png.png)
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ✨ Features
+
+- 🎲 Generate a random HEX color
+- 🌈 Automatically convert HEX to RGB
+- 📋 Copy HEX color to clipboard
+- 📋 Copy RGB color to clipboard
+- 🎨 Live background color preview
+- ⚛️ Built with React Hooks
+- 📱 Clean and responsive UI using Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- JavaScript (ES6+)
+- Tailwind CSS
+
+---
+
+## 📚 What I Learned
+
+This project helped me practice:
+
+- React `useState`
+- Lazy state initialization
+- `useRef` for interacting with DOM elements
+- Event handling in React
+- Clipboard API
+- Working with hexadecimal color codes
+- Converting HEX colors to RGB
+- Writing cleaner and more maintainable React code
+- Keeping a single source of truth by deriving data instead of storing duplicate state
+
+---
+
+## 📁 Folder Structure
+
+```text
+src/
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/VibhutinandSingh/react-color-palette-generator.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd react-color-palette-generator
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 💡 Future Improvements
+
+- 🌗 Light/Dark mode
+- 📝 Copy confirmation ("Copied!")
+- 🎨 Generate multiple color palettes
+- ❤️ Save favorite colors
+- 📂 Export palettes
+- 🌍 Fetch trending palettes from an API
+- 📱 Further improve mobile responsiveness
+
+---
+
+## 👨‍💻 Author
+
+**Vibhutinand Singh**
+
+First-year B.Tech IT student passionate about full-stack web development and building real-world projects to strengthen my skills.
+
+---
+
+If you found this project useful or interesting, consider giving it a ⭐ on GitHub!
