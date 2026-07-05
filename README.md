@@ -8,7 +8,7 @@ This project was built to strengthen my understanding of React fundamentals by a
 
 ## 📸 Screenshot
 
-![Project Screenshot](./assets/color-palette-gnerator.png.png)
+![Project Screenshot](./assets/color-palette-gnerator.png)
 
 ---
 
